@@ -22,7 +22,7 @@ export default async function Dashboard() {
 
   if (!user) return;
 
-  const data = await getData(user.id);
+  const data = await getData(user?.id);
 
   return (
     <div>
