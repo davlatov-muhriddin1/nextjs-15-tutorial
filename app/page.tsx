@@ -1,3 +1,5 @@
+"use server";
+
 import BlogPostCard from "@/components/general/BlogPostCard";
 import { prisma } from "./utils/db";
 import { Suspense } from "react";
