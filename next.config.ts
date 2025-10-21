@@ -12,12 +12,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "i.pinimg.com",
-        protocol: "https",
-      },
-
-      {
-        hostname: "lh3.googleusercontent.com",
+        hostname: "**",
         protocol: "https",
       },
     ],

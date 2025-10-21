@@ -1,5 +1,3 @@
-"use server";
-
 import { prisma } from "@/app/utils/db";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

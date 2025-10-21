@@ -1,9 +1,9 @@
-"use server";
-
 import BlogPostCard from "@/components/general/BlogPostCard";
 import { prisma } from "./utils/db";
 import { Suspense } from "react";
 import { BlogPostsGrid } from "./post/[id]/page";
+
+export const revalidate = 10;
 
 async function getData() {
   await new Promise((resolve) => setTimeout(resolve, 2000));
